@@ -1,4 +1,8 @@
 //Please contact me at srinuk@gmail.com ,For any related work or modifications
+
+This utility inserts doxygen template in source code before functions with one of the parameters as "message"
+
+
 1.Compile the source code as shown below
 
 While writing the source g++ 4.9 was used .
@@ -28,8 +32,8 @@ If the above is tough feel free to modify the source at line 1084 in main functi
 /home/srinivas/browser/src/a.c --->File added with doxygen template before function 
 with "Message" as one of the function parameter 
 
-/home/srinivas/browser/src/a.c.orig
+/home/srinivas/browser/src/a.c.orig-->orginal source code code
 
-Original source code file
 
+/home/srinivas/browser/src/a.c-->modified source with doxygen template inserted
 
