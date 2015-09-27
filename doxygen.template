@@ -1,0 +1,27 @@
+//->Start of API documentation comment block
+/**
+@page fill page template
+@{
+@section fill section template
+
+
+
+@par Parameters
+
+Name | Required | Type | Description
+-----|--------|------|----------
+
+@par Returns(Call)
+
+Name | Required | Type | Description
+-----|--------|------|----------
+returnValue | yes | Boolean | True, when operation was successfull. False otherwise.
+
+@par Returns(Subscription)
+
+Not applicable.
+
+@}
+*/
+//->End of API documentation comment block
+

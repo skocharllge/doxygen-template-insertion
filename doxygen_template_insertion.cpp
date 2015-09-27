@@ -619,8 +619,8 @@ public:
 	{
 		// 1 transition(s)
 		// 1 transition(s)
-		*(context.filep) << "@{\n"
-		                 *(context.filep) << "@section fill section template\n";
+		*(context.filep) << "@{\n";
+		*(context.filep) << "@section fill section template\n";
 		*(context.filep) << "@par Parameters\n";
 		*(context.filep) << " Name | Required | Type | Description\n";
 		*(context.filep) << "-----|--------|------|----------\n";
