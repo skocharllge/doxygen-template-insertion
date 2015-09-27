@@ -1359,7 +1359,7 @@ string doxygenparser::regexparser(string line)
 			str = "page";
 		}
 
-		std::regex re("^(\\w)+\\s*.*\\(.*LSMessage\\s*..*\\)");
+		std::regex re("^(\\w)+\\s*.*\\(.*Message\\s*..*\\)");
 
 		if (std::regex_match(line, match, re) && match.size() >= 1)
 		{
