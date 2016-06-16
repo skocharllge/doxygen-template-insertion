@@ -9,6 +9,14 @@ While writing the source g++ 4.9 was used .
 
 g++ doxygen_template_insertion.cpp -std=c++11 -o doxygen_template_insertion
 
+Please check whether the version g++ 4.9 is used otherwise the tool is not going to work .For regex you need 
+
+g++ --version
+g++ (Ubuntu 4.9.3-8ubuntu2~14.04) 4.9.3
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
 2.Usage
 Keep the source files to be modified in "src" directory 
 
